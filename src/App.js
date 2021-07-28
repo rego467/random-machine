@@ -30,7 +30,7 @@ const clickNewQuote = ()=>{
 }
   return (
     <div className="App" id="quote-box" style={{backgroundColor: colors}}>
-      <div className="test">
+      <div className="test" style={{color:colors}}>
         <div id="text">
         <i className="fas fa-quote-right"></i>
         <p>{quote}</p>
