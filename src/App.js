@@ -22,11 +22,11 @@ useEffect(()=>{
 },[quotesDB])
 
 const clickNewQuote = ()=>{
-  let randomMachine = Math.floor(Math.random() * quotesData.length);
-  setRandomNumber(randomMachine);
-  setColors(ColorArray[randomMachine]);
-  setQoute(quotesData[randomMachine].quote);
-  setAuthor(quotesData[randomMachine].author);
+  let randomMachine = Math.floor(Math.random() * quotesData.length)
+  setRandomNumber(randomMachine)
+  setColors(ColorArray[randomMachine])
+  setQoute(quotesData[randomMachine].quote)
+  setAuthor(quotesData[randomMachine].author)
 }
 
   return (
