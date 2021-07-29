@@ -8,10 +8,15 @@
   color: white;
 }
 
-.test{
-  background-color: whitesmoke;
-  padding: 20px;
-  width: 50vh;
-  border-radius: 10px;
+.test-container{
+  
+}
+
+.test-card{
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
